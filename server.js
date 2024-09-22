@@ -81,8 +81,8 @@ app
     const { isValid, mimeType, sizeKB } = getFileInfo(file_b64);
 
     // Generate user_id in the specified format
-    const full_name = "john_doe"; // Replace with your actual full name
-    const dob = "17091999"; // Replace with your actual DOB in DDMMYYYY format
+    const full_name = "Ayush Singh Rathore"; // Replace with your actual full name
+    const dob = "13/04/2002"; // Replace with your actual DOB in DDMMYYYY format
     const user_id = `${full_name}_${dob}`;
 
     // Respond with the required data format

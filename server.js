@@ -88,9 +88,9 @@ app
     // Respond with the required data format
     res.status(200).json({
       is_success: true,
-      user_id: "Ayush1738",
-      email: "ayushsingh_rathore@srmap.edu.in",
-      roll_number: "AP21110010570",
+      user_id,
+      email,
+      roll_number,
       numbers,
       alphabets,
       highest_lowercase_alphabet: highest_lowercase ? [highest_lowercase] : [],

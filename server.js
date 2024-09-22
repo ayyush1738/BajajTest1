@@ -5,7 +5,7 @@ const cors = require('cors');
 
 // Allow cross-origin requests from your frontend's origin
 app.use(cors({
-  origin: 'https://bajaj-finserv-5u8b.vercel.app' // Replace with the origin of your frontend
+  origin: 'https://bajaj-test2-kxuw.vercel.app' // Replace with the origin of your frontend
 }));
 
 // Middleware to parse JSON data
